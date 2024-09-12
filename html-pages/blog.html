@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap" rel="stylesheet">   
+    <script src="https://kit.fontawesome.com/7d40bb7855.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="../css/blog.css">
+</head>
+
+<body id="body">
+    <header id="header-1">
+        <div class="icons-bar">
+            <a href="" style="color: #1877F2;"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" style="color: black;"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="" style="color: red;"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" style="color: red"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+
+        <div class="delivery">
+            <div class="track">
+                <a href="./trackorder.html"><i class="fa-solid fa-truck-fast"></i>Track Your Order</a>
+
+            </div>
+            <p>|</p>
+            <div class="store">
+                <a href="./storelocat.html"><i class="fa-solid fa-location-dot"></i>Store Locator</a>
+
+            </div>
+            <p>|</p>
+            <div class="language">
+                <li class="lang"><a href="">Language</a>
+                    <ul class="drop-down">
+                        <li>English</li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+    </header>
+    <hr>
+
+    <header id="header-2">
+        <div class="head">
+            <div class="title">
+                <div class="menu-bar">
+                    <button type="button" class="btrn" onclick="icon()"><i
+                            class="fa-solid fa-bars-staggered"></i></button>
+                    <button type="button" class="btrn1" onclick="icon1()"><i
+                            class="fa-solid fa-bars-staggered"></i></button>
+                </div>
+                <p>Graso Shop</p>
+            </div>
+            <div class="search-bar" id="search">
+                <button type="button"><i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search products here..."></button>
+            </div>
+            <div class="search-bar-mobileview">
+                <button type="button"><a href="./searchbar.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="register">
+                <a href="./trackorder.html">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Sign In</p>
+                </a>
+            </div>
+            <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="purchase-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </header>
+    <section style="position: sticky; top: -1px;z-index: 3; box-shadow: 2px 2px 10px rgb(165, 161, 161);">
+        <header id="nav-bar">
+            <div>
+                <ul class="navication">
+                    <li><a href="../index.html">HOME PAGE</a></li>
+                    <li class="dropdown">SHOP <i class="fa-solid fa-caret-down"></i>
+                        <div class="dropdown-content">
+                            <a href="./fruit.html">Fruits</a>
+                            <a href="./vegetable.html">Vegetables</a>
+                            <a href="./nuts.html">Nuts</a>
+                            <a href="./juices.html">Juices</a>
+                            <a href="./grains.html">Grains</a>
+                            <a href="./icecream.html">Ice creams</a>
+                            <a href="./oils.html">Oils</a>
+                            <a href="./frozenfood.html">Frozen Foods</a>
+                            <a href="./snacks.html">Snacks</a>
+                            <a href="./others.html">Others</a>
+                        </div>
+                    </li>
+                    <li><a href="./product.html">PRODUCT<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="./pages.html">PAGES<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="./blog.html">BLOG<i class="fa-solid fa-caret-down"></i></a></li>
+                </ul>
+            </div>
+            <div class="call">
+                <i class="fa-solid fa-phone-volume"></i>
+                <p>Call Us: +91 0123456789</p>
+            </div>
+
+        </header>
+    </section>
+
+
+    <!-- Main -->
+    <main id="main">
+        <section class="side-icon-bar" id="icon-menu">
+            <div class="side-title">
+                <p>Shop by Catagory</p>
+                <button type="button" onclick="closeicon()"> <i class="fa-solid fa-x"></i></button>
+            </div>
+            <ul class="menu-title">
+                <li><a href="./vegetable.html">Vegetables</a></li>
+                <li><a href="./fruit.html">Fruits</a></li>
+                <li><a href="./nuts.html">Nuts</a></li>
+                <li><a href="./juices.html">Juices</a></li>
+                <li><a href="./grains.html">Grains</a></li>
+                <li><a href="./icecream.html">Ice creams</a></li>
+                <li><a href="./oils.html">Oils</a></li>
+                <li><a href="./frozenfood.html">Frozen Foods</a></li>
+                <li><a href="./snacks.html">Snacks</a></li>
+                <li><a href="./others.html">Other Groceries</a></li>
+            </ul>
+        </section>
+
+        <section class="mbl-side-bar" id="mbl-side">
+            <div class="mbl-view">
+                <div class="wlcome">
+                    <p>Welcome Graso Shop!! <i style="color: rgb(235, 232, 20);" class="fa-solid fa-face-grin-hearts"></i>
+                    </p>
+                    <button type="button" onclick="closeicon1()"><i class="fa-solid fa-x"></i></button>
+                </div>
+                <div class="side-title-mbl">
+                    <a href="./trackorder.html">Sign in</a>
+                    <p style="color: #8a8a8a;">|</p>
+                    <a href="./storelocat.html">Store Locator</a>
+                </div>
+                <div class="menus">
+                    <p>Menu</p>
+                </div>
+                <div id="menu-home">
+                    <ul class="main-home">
+                        <li><a href="../index.html">Home Page</a> <i class="fa-solid fa-angle-right"></i>
+                        </li>
+                        <li><a href="./menu.html">Shop</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="./product.html">Product</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="./pages.html">Pages</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="./blog.html">Blog</a> <i class="fa-solid fa-angle-right"></i></li>
+                    </ul>
+                </div>
+                <div class="call">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <p>Call Us: +91 0123456789</p>
+                </div>
+            </div>
+        </section>
+        <!-- Main -->
+
+    <section>
+        <div class="veg">
+            <a href="../index.html" style="color: #149104; :hover{color: red;}">Home</a>
+            <p>&gt</p>
+            <a href="./blog.html">Blog</a>
+        </div>
+    </section>
+
+
+    <!-- blog   -->
+    <h2 style="margin: 20px;">BLOG</h2>
+    
+    <section></section>
+
+
+
+    <section class="blog">
+      <div class="row">
+        <div class="img-1">
+            <div class="img-1-cont">
+                <img src="../assets/images/blog-1.jpg" alt="">
+                <p class="title">Why Online Grocery Shopping is Preferable than Traditional Shopping?</p>
+                <p class="ans">E-commerce is the biggest online evolution to connect with their customers easily and offer same day grocery delivery s...</p>
+               </div>
+          </div>
+    
+          <div class="img-1">
+            <div class="img-1-cont">
+                <img src="../assets/images/blog-2.jpg" alt="">
+                <p class="title">8 Major Advantages of Online Grocery Shopping</p>
+                <p class="ans">With a few clicks, you will get a more enjoyable and convenient experience of shopping by using the best online grocery...</p>
+               </div>
+          </div>
+    
+          <div class="img-1">
+            <div class="img-1-cont">
+                <img src="../assets/images/blog-3.jpg" alt="">
+                <p class="title">Effectual Ways to Save Money & Time through Online Grocery Shopping</p>
+                <p class="ans">The online grocery delivery service offers avant-garde grocery products to customers and processes efficient delivery to...</p>
+               </div>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="img-1">
+            <div class="img-1-cont">
+                <img src="../assets/images/blog-4.jpg" alt="">
+                <p class="title">How Covid-19 changed consumer behaviour to buy groceries Online?</p>
+                <p class="ans">Foodrunner is the best Canadian online grocery ordering and delivery platform that offers a diverse variety of products...</p>
+               </div>
+          </div>
+    
+    
+          <div class="img-1">
+            <div class="img-1-cont">
+                <img src="../assets/images/blog-5.jpg" alt="">
+                <p class="title">8 Must Have Tips for Online Grocery Shopping Right Now</p>
+                <p class="ans">While making online grocery shopping and delivery services in London, you must check the cashbacks, discounts and offers...</p>
+               </div>
+          </div>
+    
+          <div class="img-1">
+            <div class="img-1-cont">
+                <img src="../assets/images/blog-6.jpg" alt="">
+                <p class="title">How Consumers Overcome the Barriers during Online Grocery Shopping?</p>
+                <p class="ans">The best online grocery shopping platform offers special discounts and offers to customers including seasonal and festiv...</p>
+               </div>
+          </div>
+      </div>
+
+     <div class="row">
+        <div class="img-1">
+            <div class="img-1-cont">
+                <img src="../assets/images/blog-7.jpg" alt="">
+                <p class="title">10 Most Common Challenges Faced by Online Grocery Businesses</p>
+                <p class="ans">Foodrunner grocery delivery services offers quality products and freshness of grocery items in London, which gives custo...</p>
+               </div>
+          </div>
+    
+          <div class="img-1">
+            <div class="img-1-cont">
+                <img src="../assets/images/blog-8.jpg" alt="">
+                <p class="title">How online grocery delivery stores can be effective and efficient?</p>
+                <p class="ans">FoodRunner is the best grocery delivery service in London, Ontario. It offers same-day pickup and delivery services of g...</p>
+               </div>
+          </div>
+    
+    
+          <div class="img-1">
+            <div class="img-1-cont">
+                <img src="../assets/images/blog-9.jpg" alt="">
+                <p class="title">How Technology impacts grocery shopping and delivery services?</p>
+                <p class="ans">Foodrunner is the primary Online grocery delivery service in London, Ontario offers same-day delivery and pick-up servic...</p>
+               </div>
+          </div>    
+     </div>
+      <div class="row">
+        <div class="img-1">
+            <div class="img-1-cont">
+                <img src="../assets/images/blog-10.jpg" alt="">
+                <p class="title">What are all the benefits of Healthy online grocery shopping?</p>
+                <p class="ans">Foodrunner delivery service London Ontario is the top online grocery ordering and delivery services that delivers super...</p>
+               </div>
+          </div>
+          <div class="img-1">
+            <div class="img-1-cont">
+                <img src="../assets/images/blog-11.jpg" alt="">
+                <p class="title">When would be the best time for Consumers to buy groceries Online?</p>
+                <p class="ans">Looking to buy groceries Online in London? Foodrunner is the top online grocery delivery service offering fresh items a...</p>
+               </div>
+          </div>
+          <div class="img-1">
+            <div class="img-1-cont">
+                <img src="../assets/images/blog-12.jpg" alt="">
+                <p class="title">How Mobile Apps Help Consumers and online grocery stores?</p>
+                <p class="ans">The use of Foodrunner Online Grocery Store Mobile Apps is to get the delivery of groceries or any other quality products...</p>
+               </div>
+          </div>
+      </div>
+
+      </section>
+
+     
+
+
+
+
+
+
+    <a href="#body" class="up-arrow"><i class="fa-solid fa-arrow-up"></i></a>
+                 
+</main>  
+<!-- footer common   -->
+<section>
+    <div class="subscribe">
+        <div class="sub-1">
+            <p style="font-size: 20px;">Join Our Newsletter Now</p>
+            <p>Register now to get updates on Promotions and Coupons</p>
+            </div>
+            <div class="sub-2">
+                <input type="text" placeholder="Your Email Address...">
+                <button type="button">SUBSCRIBE!</button>
+            </div>
+            <div class="sub-3">
+                 <div class="box1">
+                    <a href="https://play.google.com/store/games?hl=en&gl=US"><i class="fa-brands fa-google-play"></i></a>
+                    <p>ANDRIOD APP ON Google Play</p>
+                 </div>
+                 <div class="box1">
+                   <a href="https://apps.apple.com/in/app/google-more-ways-to-search/id284815942"> <i class="fa-solid fa-mobile-screen-button"></i></a>
+                   <p>Available on the App Store</p>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section >
+        <div class="main-benefit">
+           <img src="../assets/images/secure-main.jpg" alt="">
+           <img src="../assets/images/trust-main.jpg" alt="">
+           <img src="../assets/images/help-main.jpg" alt="">
+           <img src="../assets/images/shipping-main.jpg" alt="">
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="column-1">
+        <p style="font-size: 35px; font-weight: 700;">Grasho Shop</p>
+            <p class="sec-p">Founded 25 years ago, Grasho Shop boasts a safe skincare collection that is healthy for our
+                bodies and the earth</p>
+            <p style="color: #404040;"><i class="fa-solid fa-map-location-dot"></i> 8/83A Anna Nagar Dindigul Main Road, GobalPatty, TamilNadu</p>
+            <p style="color: #404040;"><i class="fa-solid fa-envelope-circle-check"></i> Email: contact@dcitechnologies.in</p>
+            <p style="color: #404040;"><i class="fa-solid fa-phone-volume"></i> +91 0123456789</p>
+    </div>
+
+
+    <div class="column-2">
+        <b><p style="font-size: 18px;">All Categories</p></b>
+        <a href="./menu.html">Shop Categories</a>
+        <a href="./vegetable.html">Vegetables</a>
+        <a href="./nuts.html">Nuts</a>
+        <a href="./grains.html">Grains</a>
+        <a href="./fruit.html">Fruits</a>
+    </div>
+
+    <div class="column-3">
+       <b> <p style="font-size: 18px;">Customer Account</p></b>
+        <a href="">My Account</a>
+        <a href="">My orders</a>
+        <a href="">Wishlist</a>
+        <a href="">Payment methods</a>
+        <a href="">Graso Shop Wallet</a>
+    </div>
+
+    <div class="column-4">
+        <b><p style="font-size: 18px;">Help & Support</p></b>
+        <a href="">About us</a>
+        <a href="">FAQ</a>
+        <a href="">Terms & Conditions</a>
+        <a href="">Copy right</a>
+        <a href="">Company</a>
+    </div>
+
+    <div class="column-5">
+        
+        <div class="first">
+            <b><p style="font-size: 18px; margin-bottom: 10px;">Connect with Us</p></b>
+            <a href="https://www.facebook.com/" style="color: #1877F2;"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en" style="color: black"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.google.com/" class="google-icn"><i class="fa-brands fa-google"></i></a>
+            <a href="https://www.instagram.com/" style="color: red;"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://in.pinterest.com/" style="color: red;"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+        <div class="second">
+        <b><p style="font-size: 18px; margin-bottom: 10px;">Payment methods</p></b>
+        <a href="https://pay.google.com/"><img src="../assets/images/gpay.png" alt="" ></a>
+        <a href="https://www.phonepe.com/"><img src="../assets/images/phonepay.png" alt=""></a>
+        <a href="https://www.visa.co.in/"><img src="../assets/images/visa cart.png" alt=""></a>
+        <a href="https://www.mastercard.co.in/"><img src="../assets/images/master card.png" alt=""></a>
+    </div>
+</div>
+</footer>
+
+
+<footer class="mobile-view">
+  <div class="bottom-mb">
+    <div class="home">
+        <a href="../index.html"> <i class="fa-solid fa-house-user"></i></a>
+        <p>Home</p>
+       </div>
+       <div class="items-mb">
+        <a href="./menu.html"><i class="fa-solid fa-table-cells-large"></i></a>
+        <p>Category</p>
+       </div>
+      <div class="heart-mb">
+        <a href="" id="count"><i class="fa-solid fa-heart"></i></a>
+        <p>Wishlist</p>
+      </div>
+      <div class="shp-mb">
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        <p>Basket</p>
+      </div>
+  </div>
+
+</footer>
+
+
+<footer class="last-footer">
+    <p>Copyright © designed by <b>DCITechnologies</b></p>
+    </footer>
+    <script src="../js/shop.js"></script>
+<script>
+     ScrollReveal({
+            reset:true,
+            distance:'60px',
+            duration:'2000',
+            delay:'200'
+
+        })
+     ScrollReveal().reveal('.row',{delay:100,origin:'bottom'})
+</script>
+
+
+</body>
+</html>

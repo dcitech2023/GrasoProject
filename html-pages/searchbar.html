@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d40bb7855.js" crossorigin="anonymous"></script>
+
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+        .search-home{
+            border-bottom: 2px solid #000;
+            margin:0px 30px;
+        }
+
+       .search-home input{
+            border: none;
+            background: none;
+            outline: none;       
+            margin: 10px;   
+            font-size: 15px;
+       }
+       #search-btn{
+        display: flex;
+        justify-content: end;
+
+       }
+       #search-btn button{
+           border: none;
+           background: none;
+           font-size: 20px;
+           color: #8a8a8a;
+       }
+       .search-page{
+        transition: .2s;
+       }
+       .down{
+          margin: 30px 0px 0px 10px;
+
+          & p{
+            margin-bottom: 20px;
+          }
+       }
+       .down button a{
+        text-decoration: none;
+        color: #000;
+        background-color: #fff;
+       }
+       
+    </style>
+</head>
+<body>
+   <div id="search-page">
+     <div id="search-btn">
+        <button type="button" onclick="closebtn()"> <i class="fa-solid fa-x"></i></button>
+    </div>
+
+    <div class="search-home">
+        <input type="text" placeholder="Search products here.....">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+   </div>
+   <div class="down">
+       <p>Popular searches:</p>
+       <div>
+        <button><a href="./vegetable.html">Vegetables</a></button>
+        <button><a href="./fruit.html">Fruits</a></button>
+        <button><a href="./nuts.html">Nuts</a></button>
+        <button><a href="./juices.html">Juices</a></button>
+        <button><a href="./grains.html">Grains</a></button>
+        <button><a href="./icecream.html">icecream</a></button>
+        <button><a href="./oils.html">Oils</a></button>
+        <button><a href="./frozenfood.html">frozenfood</a></button>
+        <button><a href="./snacks.html">snacks</a></button>
+        <button><a href="./others.html">grocery</a></button>
+       </div>
+   </div>
+
+<script>
+    
+    function closebtn(){
+        let icon=document.getElementById("search-page")
+      window.history.back();
+    }
+</script>
+</body>
+</html>
+

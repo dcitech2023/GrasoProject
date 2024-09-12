@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d40bb7855.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="body">
+    <header id="header-1">
+        <div class="icons-bar">
+            <a href="" style="color: #1877F2;"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" style="color: black;"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="" style="color: red;"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" style="color: red"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+
+        <div class="delivery">
+            <div class="track">
+                <a href="./html-pages/trackorder.html"><i class="fa-solid fa-truck-fast"></i>Track Your Order</a>
+
+            </div>
+            <p>|</p>
+            <div class="store">
+                <a href="./html-pages/storelocat.html"><i class="fa-solid fa-location-dot"></i>Store Locator</a>
+
+            </div>
+            <p>|</p>
+            <div class="language">
+                <li class="lang"><a href="">Language</a>
+                    <ul class="drop-down">
+                        <li>English</li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+    </header>
+    <hr>
+
+    <header id="header-2">
+        <div class="head">
+            <div class="title">
+                <div class="menu-bar">
+                    <button type="button" class="btrn" onclick="icon()"><i
+                            class="fa-solid fa-bars-staggered"></i></button>
+                    <button type="button" class="btrn1" onclick="icon1()"><i
+                            class="fa-solid fa-bars-staggered"></i></button>
+                </div>
+                <p>Grasho Shop</p>
+            </div>
+            <div class="search-bar" id="search">
+                <button type="button"><i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search products here..."></button>
+            </div>
+            <div class="search-bar-mobileview">
+                <button type="button"><a href="./html-pages/searchbar.html"><i
+                            class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="register">
+                <a href="./html-pages/trackorder.html">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Sign In</p>
+                </a>
+            </div>
+            <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="purchase-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </header>
+    <section style="position: sticky; top: -1px;z-index: 3; box-shadow: 2px 2px 10px rgb(165, 161, 161);">
+        <header id="nav-bar">
+            <div>
+                <ul class="navication">
+                    <li><a href="index.html">HOME PAGE</a></li>
+                    <li class="dropdown">SHOP <i class="fa-solid fa-caret-down"></i>
+                        <div class="dropdown-content">
+                            <a href="./html-pages/vegetable.html">Vegetables</a>
+                            <a href="./html-pages/fruit.html">Fruits</a>
+                            <a href="./html-pages/nuts.html">Nuts</a>
+                            <a href="./html-pages/juices.html">Juices</a>
+                            <a href="./html-pages/grains.html">Grains</a>
+                            <a href="./html-pages/icecream.html">Ice creams</a>
+                            <a href="./html-pages/oils.html">Oils</a>
+                            <a href="./html-pages/frozenfood.html">Frozen Foods</a>
+                            <a href="./html-pages/snacks.html">Snacks</a>
+                            <a href="./html-pages/others.html">Others</a>
+                        </div>
+                    </li>
+                    <li><a href="./html-pages/product.html">PRODUCT</a></li>
+                    <li><a href="./html-pages/pages.html">PAGES</a></li>
+                    <li><a href="./html-pages/blog.html">BLOG</a></li>
+                </ul>
+            </div>
+            <div class="call">
+                <i class="fa-solid fa-phone-volume"></i>
+                <p>Call Us: +91 1234567890</p>
+            </div>
+        </header>
+    </section>
+
+
+    <!-- Main -->
+    <main id="main">
+        <section class="side-icon-bar" id="icon-menu">
+            <div class="side-title">
+                <p>Shop by Catagory</p>
+                <button type="button" onclick="closeicon()"> <i class="fa-solid fa-x"></i></button>
+            </div>
+            <ul class="menu-title">
+                <li><a href="./html-pages/vegetable.html">Vegetables</a></li>
+                <li><a href="./html-pages/fruit.html">Fruits</a></li>
+                <li><a href="./html-pages/nuts.html">Nuts</a></li>
+                <li><a href="./html-pages/juices.html">Juices</a></li>
+                <li><a href="./html-pages/grains.html">Grains</a></li>
+                <li><a href="./html-pages/icecream.html">Ice creams</a></li>
+                <li><a href="./html-pages/oils.html">Oils</a></li>
+                <li><a href="./html-pages/frozenfood.html">Frozen Foods</a></li>
+                <li><a href="./html-pages/snacks.html">Snacks</a></li>
+                <li><a href="./html-pages/others.html">Other Groceries</a></li>
+            </ul>
+        </section>
+
+        <section class="mbl-side-bar" id="mbl-side">
+            <div class="mbl-view">
+                <div class="wlcome">
+                    <p>Welcome Grasho Shop!! <i style="color: rgb(235, 232, 20);" class="fa-solid fa-face-grin-hearts"></i>
+                    </p>
+                    <button type="button" onclick="closeicon1()"><i class="fa-solid fa-x"></i></button>
+                </div>
+                <div class="side-title-mbl">
+                    <a href="html-pages/trackorder.html">Sign in</a>
+                    <p style="color: #8a8a8a;">|</p>
+                    <a href="html-pages/storelocat.html">Store Locator</a>
+                </div>
+                <div class="menus">
+                    <p>Menu</p>
+                </div>
+                <div id="menu-home">
+                    <ul class="main-home">
+                        <li><a href="index.html">Home Page<i class="fa-solid fa-angle-right"></i></a> 
+                        </li>
+                        <li><a href="./html-pages/menu.html">Shop <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="./html-pages/product.html">Product<i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="./html-pages/pages.html">Page <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="./html-pages/blog.html">Blog <i class="fa-solid fa-angle-right"></i></a></li>
+                    </ul>
+                </div>
+                <div class="call">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <p>Call Us:+91 0123456789</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="slider-container">
+            <div class="slider-content" id="slider-content">
+                <div class="slide">
+                    <img src="./assets/images/back-grd1.jpg" alt="Image 1">
+                    <div class="inside inside-1">
+                        <p class="item-1">Order vegetables online at affordable price and best quality</p>
+                        <p class="free">Get FREE delivery on all orders!</p>
+                        <button><a href="./html-pages/vegetable.html">Order Now!</a></button>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/back-grd2.jpg" alt="Image 2">
+                    <div class="inside inside-2">
+                        <p class="item-2">Buy Nuts and Dry Fruits</p>
+                        <p class="free">Get FREE delivery on all orders!</p>
+                        <button><a href="./html-pages/nuts.html">Order Now!</a></button>
+                    </div>
+
+                </div>
+                <div class="slide">
+                    <img src="assets/images/back-grd3.jpg" alt="Image 3">
+                    <div class="inside inside-3">
+                        <p class="item-3">Fresh Fruits are available</p>
+                        <p class="free">Get FREE delivery on all orders!</p>
+                        <button><a href="./html-pages/fruit.html">Order Now!</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <button id="prev" onclick="changeSlide(-1)"><i class="fa-solid fa-caret-left"></i></button>
+            <button id="next" onclick="changeSlide(1)"><i class="fa-solid fa-caret-right"></i></button>
+        </section>
+
+
+
+        <section id="section2">
+            <div class="cata-title">
+                <a href="html-pages/menu.html">Shop By Category</a>
+            </div>
+            <div class="menu-card">
+                <div class="row-1-icon">
+                    <div class="icon-1">
+                        <a href='html-pages/vegetable.html'><img src="assets/images/raddish.png" alt=""></a>
+                        <p style="text-align: center;">Vegetables</p>
+                    </div>
+                    <div class="icon-2">
+                        <a href="html-pages/fruit.html"><img src="assets/images/icon-2.jpg" alt=""></a>
+                        <p style="text-align: center;">Fruits</p>
+                    </div>
+                    <div class="icon-3">
+                        <a href="html-pages/nuts.html"><img src="assets/images/icon-3.jpg" alt=""></a>
+                        <p style="text-align: center;">Nuts</p>
+                    </div>
+                    <div class="icon-4">
+                        <a href="html-pages/juices.html"><img src="assets/images/icon-4.jpg" alt=""></a>
+                        <p style="text-align: center;">Juices</p>
+                    </div>
+                    <div class="icon-5">
+                        <a href="html-pages/grains.html"><img src="assets/images/icon-5.jpg" alt=""></a>
+                        <p style="text-align: center;">Grains</p>
+                    </div>
+                </div>
+                <div class="row-2-icon">
+                    <div class="icon-6">
+                        <a href="html-pages/icecream.html"><img src="assets/images/icon-6.jpg" alt=""></a>
+                        <p style="text-align: center;">Ice Creams</p>
+                    </div>
+                    <div class="icon-7">
+                        <a href="html-pages/oils.html"><img src="assets/images/icon-7.jpg" alt=""></a>
+                        <p style="text-align: center;">Oils</p>
+                    </div>
+                    <div class="icon-8">
+                        <a href="html-pages/frozenfood.html"><img src="assets/images/icon-8.jpg" alt=""></a>
+                        <p style="text-align: center;">Frozen Foods</p>
+                    </div>
+                    <div class="icon-9">
+                        <a href="html-pages/snacks.html"><img src="assets/images/icon-9.jpg" alt=""></a>
+                        <p style="text-align: center;">Snacks</p>
+                    </div>
+                    <div class="icon-10">
+                        <a href="html-pages/others.html"><img src="assets/images/icon-10.jpg" alt=""></a>
+                        <p style="text-align: center;">Other Groceries</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="deals">
+            <p>Top Deals</p>
+            <p id="timer"></p>
+        </div>
+        <section class="parent-row1">
+            <div class="row-1">
+                <div class="card">
+                    <a href="./html-pages/mushroom.html"><img src="assets/images/mushroom.jpg" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">grocery</p>
+                    <p class="tle-veg">Mushroom</p>
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹75</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                    <div class="sale">
+                        <p>sale</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/cashew.html"><img src="assets/images/cashews.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">nuts</p>
+                    <p class="tle-veg">Cashew nuts</p>
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹75</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>  
+                    <div class="sale">
+                        <p>sale</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/potato-fry.html"><img src="assets/images/fresh-potatoes-fri-with-souce.jpg"alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">snacks</p>
+                    <p class="tle-veg">Potato fry</p>
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹65</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="offer">
+                        <p><i>Offer 20%</i></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/blue-berry.html"><img src="assets/images/blueberry scoop ice.png"
+                            alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">ice cream</p>
+                    <p class="tle-veg">blueberry Scoop</p>
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹90</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/brocoli.html"><img src="assets/images/brocoli.jpg" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">vegetable</p>
+                    <p class="tle-veg">Broccoli</p>
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹90</p>
+
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="sale">
+                        <p>sale</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-1">
+                <div class="card">
+                    <a href="./html-pages/pomegrante.html"><img src="assets/images/pomegrante fru.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">fruit</p>
+                    <p class="tle-veg">Pomegranate</p>
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹90</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="offer">
+                        <p><i>Offer 20%</i></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/coconutoil.html"><img src="assets/images/coconut oil.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">oils</p>
+                    <p class="tle-veg">Coconut oil</p>
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹90</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/lemon.html"><img src="assets/images/lemon.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">juice</p>
+                    <p class="tle-veg">Lemon juice</p>
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹90</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="offer">
+                        <p><i>Offer 20%</i></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/banana.html"><img src="assets/images/banana.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">fruits</p>
+                    <p class="tle-veg">Banana</p>
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹90</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="sale">
+                        <p>sale</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/bowl-ice.html"><img src="assets/images/mixed flavour ice.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">ice cream</p>
+                    <p class="tle-veg">Mixed flavour</p>
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹90</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="offer">
+                        <p><i>Offer 20%</i></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advertise">
+            <div class="advertise-1">
+                <img src="assets/images/img-banner2-1.jpg" alt="">
+                <div class="inside-ad" id="ad-1">
+                    <i style="font-size: 25px;">Snack Food 24%</i>
+                    <p style="font-size: 30px;">Fruit & Nut</p>
+                    <p>TAKE A BREAK WITH YOUR SNACKS</p>
+                    <button><a href="html-pages/snacks.html">SHOP NOW</a></button>
+                </div>
+            </div>
+            <div class="advertise-2">
+                <img src="assets/images/img-banner2-2.jpg" alt="">
+                <div class="inside-ad">
+                    <i style="font-size: 25px;">The New</i>
+                    <p style="font-size: 30px;">Crackers Cookies</p>
+                </div>
+            </div>
+            <div class="advertise-3">
+                <img src="assets/images/img-banner2-3.jpg" alt="">
+                <div class="inside-ad">
+                    <i style="font-size: 25px; color: #000;">Delicious</i>
+                    <p style="font-size: 30px; color: #000;">Fresh chocolate</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="arrivals">
+            <div class="arrival-title">
+                <p style="font-size: 30px;">New Arrivals</p>
+            </div>
+            <div class="parent-new">
+
+                <div class="row-1">
+                    <div class="card">
+                        <a href="html-pages/dessert-cake.html"><img src="assets/images/dessert with banana.png" alt="...."></a>
+                        <p style="color: rgba(128, 128, 128, 0.779);">ice cream</p>
+                        <p class="tle-veg">Dessert Banana</p>
+                        <div class="heart-fnc">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="new">
+                            <p>New</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="html-pages/mushroom.html"><img src="assets/images/mushroom.jpg" alt="...."></a>
+                        <p style="color: rgba(128, 128, 128, 0.779);">Grocery</p>
+                        <p class="tle-veg">Mushroom</p>
+                        <div class="heart-fnc">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="new">
+                            <p>New</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="html-pages/sweet-potato.html"><img src="assets/images/sweet-potato.jpg" alt="...."></a>
+                        <p style="color: rgba(128, 128, 128, 0.779);">vegetable</p>
+                        <p class="tle-veg">Sweet Potato</p>
+                        <div class="heart-fnc">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="new">
+                            <p>New</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="html-pages/almond.html"><img src="assets/images/almond.png" alt="...."></a>
+                        <p style="color: rgba(128, 128, 128, 0.779);">nuts</p>
+                        <p class="tle-veg">Almond nuts</p>
+                        <div class="heart-fnc">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="new">
+                            <p>New</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="html-pages/kidneybeans.html"><img src="assets/images/WhatsApp Image 2024-01-02 at 22.21.05_1650c875.jpg"
+                                alt="...."></a>
+                        <p style="color: rgba(128, 128, 128, 0.779);">nuts</p>
+                        <p class="tle-veg">Kidney beans</p>
+                        <div class="heart-fnc">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="new">
+                            <p>New</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-1">
+                    <div class="card">
+                        <a href="html-pages/smoosa.html"><img src="assets/images/smoosa.png" alt="...."></a>
+                        <p style="color: rgba(128, 128, 128, 0.779);">Snacks</p>
+                        <p class="tle-veg">Smoosa</p>
+                        <div class="heart-fnc">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="new">
+                            <p>New</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="html-pages/organic-egg.html"><img src="assets/images/orangic egg.jpg" alt="...."></a>
+                        <p style="color: rgba(128, 128, 128, 0.779);">Grocery</p>
+                        <p class="tle-veg">Eggs</p>
+                        <div class="heart-fnc">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="new">
+                            <p>New</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="html-pages/cabbage.html"><img src="assets/images/cabbage-2.jpg" alt="...."></a>
+                        <p style="color: rgba(128, 128, 128, 0.779);">vegetable</p>
+                        <p class="tle-veg">Cabbage</p>
+                        <div class="heart-fnc">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="new">
+                            <p>New</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="html-pages/watermelon.html"><img src="assets/images/watermelan-2.jpg" alt="...."></a>
+                        <p style="color: rgba(128, 128, 128, 0.779);">fruits</p>
+                        <p class="tle-veg">Water Melon</p>
+                        <div class="heart-fnc">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="new">
+                            <p>New</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="html-pages/caramal.html"><img src="assets/images/caramel-popcorn.jpg" alt="...."></a>
+                        <p style="color: rgba(128, 128, 128, 0.779);">Snacks</p>
+                        <p class="tle-veg">Caramal Popcorn</p>
+                        <div class="heart-fnc">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="new">
+                            <p>New</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="vegetable-home">
+            <h2>Fresh Vegetables</h2>
+        </div>
+        <div class="ad-img">
+            <a href="html-pages/vegetable.html"><img src="assets/images/vegetables-3.jpg" alt=""></a>
+            <a href="html-pages/vegetable.html"><img src="assets/images/vegetables-2.jpg" alt=""></a>
+        </div>
+        <section class="fresh-vegetables">
+            <div class="row-1">
+                <div class="card">
+                    <a href="html-pages/tomoto.html"><img src="assets/images/tomato.jpg" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">vegetable</p>
+                    <p class="tle-veg">Tomato</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/cauliflower.html"><img src="assets/images/cauli flower-2.jpg" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">vegetable</p>
+                    <p class="tle-veg">Cauli Flower</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/raddish.html"><img src="assets/images/raddish.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">vegetable</p>
+                    <p class="tle-veg">Raddish</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/pumbkin.html"><img src="assets/images/pumbkin.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">vegetable</p>
+                    <p class="tle-veg">pumbkin</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a href="html-pages/brocoli.html"><img src="assets/images/brocoli-2.jpg" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">vegetable</p>
+                    <p class="tle-veg">Broccoli</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a href="html-pages/bitter-gourd.html"><img src="assets/images/bitter-gourd.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">vegetable</p>
+                    <p class="tle-veg">Bitter-gourd</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="vegetable-home">
+            <h2>Fresh Fruits</h2>
+        </div>
+
+        <section class="fresh-fruits">
+            <div class="row-1">
+                <div class="card">
+                    <a href="html-pages/apple.html"><img src="assets/images/apple.jpg" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">fruit</p>
+                    <p class="tle-veg">Apple</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/banana.html"><img src="assets/images/banana-2.jpg" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">fruit</p>
+                    <p class="tle-veg">Banana</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/pomegrante.html"><img src="assets/images/pomegrante-2.jpg" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">fruit</p>
+                    <p class="tle-veg">Pomegranate</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/blackcurrent.html"><img src="assets/images/black-current.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">fruit</p>
+                    <p class="tle-veg">Black Current</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a href="html-pages/pear.html"><img src="assets/images/pear-1.jpg" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">fruit</p>
+                    <p class="tle-veg">Pear</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a href="html-pages/guava.html"><img src="assets/images/guava.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">fruit</p>
+                    <p class="tle-veg">Guava</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="vegetable-home">
+            <h2>Organic Grains</h2>
+        </div>
+
+
+        <section class="grains">
+            <div class="row-1">
+                <div class="card">
+                    <a href="html-pages/wheat.html"><img src="assets/images/wheat.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">grains</p>
+                    <p class="tle-veg">Wheat</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/black-sesame.html"><img src="assets/images/black-sesame.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">grains</p>
+                    <p class="tle-veg">Black Sesame</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/splitpigeon.html"><img src="assets/images/Split pigeon peas.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">grains</p>
+                    <p class="tle-veg">Split pigeon</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/redbeans.html"><img src="assets/images/red beans.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">grains</p>
+                    <p class="tle-veg">Red Beans</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a href="html-pages/pepper.html"><img src="assets/images/pepper.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">grains</p>
+                    <p class="tle-veg">Pepper</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a href="html-pages/rice.html"><img src="assets/images/rice.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">grains</p>
+                    <p class="tle-veg">Rice</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="vegetable-home">
+            <h2>Snacks</h2>
+        </div>
+        <section class="snacks">
+            <div class="row-1">
+                <div class="card">
+                    <a href="html-pages/smoosa.html"><img src="assets/images/smoosa.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">snacks</p>
+                    <p class="tle-veg">Wheat</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/black-forest.html"><img src="assets/images/chocolate cake.jpg" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">snacks</p>
+                    <p class="tle-veg">Black Sesame</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/kurkure.html"><img src="assets/images/kurkure.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">snacks</p>
+                    <p class="tle-veg">Split pigeon</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <a href="html-pages/banana-slices.html"><img src="assets/images/delicious-baked-banana-slices.jpg" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">snacks</p>
+                    <p class="tle-veg">Banana Slices</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a href="html-pages/butter-croissant.html"><img src="assets/images/butter-croissant.jpg" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">snacks</p>
+                    <p class="tle-veg">Pepper</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a href="html-pages/lays.html"><img src="assets/images/lays.png" alt="...."></a>
+                    <p style="color: rgba(128, 128, 128, 0.779);">snacks</p>
+                    <p class="tle-veg">Rice</p>
+                    <p class="off-card"><i class="fa-brands fa-free-code-camp"></i> Min 25% OFF</p>
+                    <div class="heart-fnc">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <a href="#body" class="up-arrow"><i class="fa-solid fa-arrow-up"></i></a>
+
+    </main>
+    <!-- footer common   -->
+    <section>
+        <div class="subscribe">
+            <div class="sub-1">
+                <p style="font-size: 20px;">Join Our Newsletter Now</p>
+                <p>Register now to get updates on Promotions and Coupons</p>
+            </div>
+            <div class="sub-2">
+                <input type="text" placeholder="Your Email Address...">
+                <button type="button">SUBSCRIBE!</button>
+            </div>
+            <div class="sub-3">
+                <div class="box1">
+                    <a href=""><i class="fa-brands fa-google-play"></i></a>
+                    <p>ANDRIOD APP ON Google Play</p>
+                </div>
+                <div class="box1">
+                    <a href=""> <i class="fa-solid fa-mobile-screen-button"></i></a>
+                    <p>Available on the App Store</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="main-benefit">
+            <img src="assets/images/secure-main.jpg" alt="">
+            <img src="assets/images/trust-main.jpg" alt="">
+            <img src="assets/images/help-main.jpg" alt="">
+            <img src="assets/images/shipping-main.jpg" alt="">
+        </div>
+    </section>
+    </main>
+    <footer class="footer">
+        <div class="column-1">
+            <p style="font-size: 35px; font-weight: 700;">Graso Shop</p>
+            <p class="sec-p">Founded 25 years ago, Grasho Shop boasts a safe skincare collection that is healthy for our
+                bodies and the earth</p>
+            <p style="color: #404040;"><i class="fa-solid fa-map-location-dot"></i> 8/83A Anna Nagar Dindigul Main Road, GobalPatty, TamilNadu</p>
+            <p style="color: #404040;"><i class="fa-solid fa-envelope-circle-check"></i> Email: contact@dcitechnologies.in</p>
+            <p style="color: #404040;"><i class="fa-solid fa-phone-volume"></i> +91 0123456789</p>
+        </div>
+
+
+        <div class="column-2">
+            <b>
+                <p style="font-size: 18px;">All Categories</p>
+            </b>
+            <a href="html-pages/menu.html">Shop Categories</a>
+            <a href="html-pages/vegetable.html">Vegetables</a>
+            <a href="html-pages/nuts.html">Nuts</a>
+            <a href="html-pages/grains.html">Grains</a>
+            <a href="html-pages/fruit.html">Fruits</a>
+        </div>
+
+        <div class="column-3">
+            <b>
+                <p style="font-size: 18px;">Customer Account</p>
+            </b>
+            <a href="">My Account</a>
+            <a href="">My orders</a>
+            <a href="">Wishlist</a>
+            <a href="">Payment methods</a>
+            <a href="">Grasho Shop Wallet</a>
+        </div>
+
+        <div class="column-4">
+            <b>
+                <p style="font-size: 18px;">Help & Support</p>
+            </b>
+            <a href="">About us</a>
+            <a href="">FAQ</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Copy right</a>
+            <a href="">Company</a>
+        </div>
+
+        <div class="column-5">
+
+            <div class="first">
+                <b>
+                    <p style="font-size: 18px; margin-bottom: 10px;">Connect with Us</p>
+                </b>
+                <a href="https://www.facebook.com/" style="color: #1877F2;"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/?lang=en" style="color: black"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.google.com/" class="google-icn"><i class="fa-brands fa-google"></i></a>
+                <a href="https://www.instagram.com/" style="color: red;"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://in.pinterest.com/" style="color: red;"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+            <div class="second">
+                <b>
+                    <p style="font-size: 18px; margin-bottom: 10px;">Payment methods</p>
+                </b>
+                <a href="https://pay.google.com/"><img src="assets/images/gpay.png" alt=""></a>
+                <a href="https://www.phonepe.com/"><img src="assets/images/phonepay.png" alt=""></a>
+                <a href="https://www.visa.co.in/"><img src="assets/images/visa cart.png" alt=""></a>
+                <a href="https://www.mastercard.co.in/"><img src="assets/images/master card.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <footer class="mobile-view">
+        <div class="bottom-mb">
+            <div class="home">
+                <a href="index.html"> <i class="fa-solid fa-house-user"></i></a>
+                <p>Home</p>
+            </div>
+            <div class="items-mb">
+                <a href="html-pages/menu.html"><i class="fa-solid fa-table-cells-large"></i></a>
+                <p>Category</p>
+            </div>
+            <div class="heart-mb">
+                <a href="" id="count"><i class="fa-solid fa-heart"></i></a>
+                <p>Wishlist</p>
+            </div>
+            <div class="shp-mb">
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <p>Basket</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <footer class="last-footer">
+        <p>Copyright © Designed by <b>DCITechnologies</b></p>
+    </footer>
+    <script src="js/shop.js"></script>
+    <script>
+        ScrollReveal({
+            reset:true,
+            distance:'60px',
+            duration:'2000',
+            delay:'200'
+
+        })
+         ScrollReveal().reveal('#slider-container,#section2,.parent-row1,.advertise,.parent-new,.fresh-fruits,.grains,.snacks,.fresh-vegetables',{delay:100,origin:'bottom'});
+    </script>
+</body>
+
+</html>

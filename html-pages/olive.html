@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d40bb7855.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="../css/veg-menu.css">
+</head>
+
+<body id="body">
+    <header id="header-1">
+        <div class="icons-bar">
+            <a href="" style="color: #1877F2;"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" style="color: black;"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="" style="color: red;"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" style="color: red"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+
+        <div class="delivery">
+            <div class="track">
+                <a href="./trackorder.html"><i class="fa-solid fa-truck-fast"></i>Track Your Order</a>
+
+            </div>
+            <p>|</p>
+            <div class="store">
+                <a href="./storelocat.html"><i class="fa-solid fa-location-dot"></i>Store Locator</a>
+
+            </div>
+            <p>|</p>
+            <div class="language">
+                <li class="lang"><a href="">Language</a>
+                    <ul class="drop-down">
+                        <li>English</li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+    </header>
+    <hr>
+
+    <header id="header-2">
+        <div class="head">
+            <div class="title">
+                <div class="menu-bar">
+                    <button type="button" class="btrn" onclick="icon()"><i
+                            class="fa-solid fa-bars-staggered"></i></button>
+                    <button type="button" class="btrn1" onclick="icon1()"><i
+                            class="fa-solid fa-bars-staggered"></i></button>
+                </div>
+                <p>Graso Shop</p>
+            </div>
+            <div class="search-bar" id="search">
+                <button type="button"><i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search products here..."></button>
+            </div>
+            <div class="search-bar-mobileview">
+                <button type="button"><a href="./searchbar.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="register">
+                <a href="./trackorder.html">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Sign In</p>
+                </a>
+            </div>
+            <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="purchase-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </header>
+    <section style="position: sticky; top: -1px;z-index: 3; box-shadow: 2px 2px 10px rgb(165, 161, 161);">
+        <header id="nav-bar">
+            <div>
+                <ul class="navication">
+                    <li><a href="../index.html">HOME PAGE</a></li>
+                    <li class="dropdown">SHOP <i class="fa-solid fa-caret-down"></i>
+                        <div class="dropdown-content">
+                            <a href="./fruit.html">Fruits</a>
+                            <a href="./vegetable.html">Vegetables</a>
+                            <a href="./nuts.html">Nuts</a>
+                            <a href="./juices.html">Juices</a>
+                            <a href="./grains.html">Grains</a>
+                            <a href="./icecream.html">Ice creams</a>
+                            <a href="./oils.html">Oils</a>
+                            <a href="./frozenfood.html">Frozen Foods</a>
+                            <a href="./snacks.html">Snacks</a>
+                            <a href="./others.html">Others</a>
+                        </div>
+                    </li>
+                    <li><a href="./product.html">PRODUCT<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="./pages.html">PAGES<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="./blog.html">BLOG<i class="fa-solid fa-caret-down"></i></a></li>
+                </ul>
+            </div>
+            <div class="call">
+                <i class="fa-solid fa-phone-volume"></i>
+                <p>Call Us: +91 0123456789</p>
+            </div>
+
+        </header>
+    </section>
+
+
+    <!-- Main -->
+    <main id="main">
+        <section class="side-icon-bar" id="icon-menu">
+            <div class="side-title">
+                <p>Shop by Catagory</p>
+                <button type="button" onclick="closeicon()"> <i class="fa-solid fa-x"></i></button>
+            </div>
+            <ul class="menu-title">
+                <li><a href="./vegetable.html">Vegetables</a></li>
+                <li><a href="./fruit.html">Fruits</a></li>
+                <li><a href="./nuts.html">Nuts</a></li>
+                <li><a href="./juices.html">Juices</a></li>
+                <li><a href="./grains.html">Grains</a></li>
+                <li><a href="./icecream.html">Ice creams</a></li>
+                <li><a href="./oils.html">Oils</a></li>
+                <li><a href="./frozenfood.html">Frozen Foods</a></li>
+                <li><a href="./snacks.html">Snacks</a></li>
+                <li><a href="./others.html">Other Groceries</a></li>
+            </ul>
+        </section>
+
+        <section class="mbl-side-bar" id="mbl-side">
+            <div class="mbl-view">
+                <div class="wlcome">
+                    <p>Welcome Graso Shop!! <i style="color: rgb(235, 232, 20);" class="fa-solid fa-face-grin-hearts"></i>
+                    </p>
+                    <button type="button" onclick="closeicon1()"><i class="fa-solid fa-x"></i></button>
+                </div>
+                <div class="side-title-mbl">
+                    <a href="./trackorder.html">Sign in</a>
+                    <p style="color: #8a8a8a;">|</p>
+                    <a href="./storelocat.html">Store Locator</a>
+                </div>
+                <div class="menus">
+                    <p>Menu</p>
+                </div>
+                <div id="menu-home">
+                    <ul class="main-home">
+                        <li><a href="../index.html">Home Page</a> <i class="fa-solid fa-angle-right"></i>
+                        </li>
+                        <li><a href="./menu.html">Shop</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="./product.html">Product</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="./pages.html">Pages</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="./blog.html">Blog</a> <i class="fa-solid fa-angle-right"></i></li>
+                    </ul>
+                </div>
+                <div class="call">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <p>Call Us: +91 0123456789</p>
+                </div>
+            </div>
+        </section>
+
+   <main>
+    <section>
+        <div class="veg">
+            <a href="../index.html" style="color: #149104; :hover{color: red;}">Home</a>
+            <p>&gt</p>
+            <a href="./menu.html">Shop Catagory</a>
+            <p>&gt</p>
+            <a href="./oils.html">Oils</a>
+            <p>&gt</p>
+            <a href="./olive.html">Olive Oil</a>
+        </div>
+    </section>
+
+    <section class="content-page">
+        <div class="product-img">
+            <div class="main-product">
+                <img src="../assets/images/olive oil.png" alt="...">
+            </div>
+            <div class="sub-product">
+                <img src="../assets/images/coconut oil.png" alt="">
+                <img src="../assets/images/almont oil.png" alt="">
+                <img src="../assets/images/avacoda oil.png" alt="">
+            </div>
+            
+        </div>
+        <section class="right-content">
+            <div class="product-name">
+                <h2>Olive Oil</h2>
+                <p style="color: #8a8a8a; font-size: 19px;">oil</p>
+            </div>
+            <div class="price">
+                <span style="color: #1249a2; font-size: 20px; font-weight: 700;">₹55.5 (1kg)</span>
+               <span><del style="color: grey;">₹74</del></span>
+                <span style="color: #4CAF50;">25% OFFER</span>
+            </div>
+            <div class="about">
+                <p style="color:grey">"A nut is a fruit consisting of a hard or tough nutshell protecting a kernel which is usually edible. In general usage and in a culinary sense, a wide variety of dry seeds are called nuts, but in a botanical context "nut" implies that the shell does not open to release the seed."</p>
+            </div>
+            
+            <div class="add-product">
+                <div class="quantity-container">
+                    <button class="quantity-button" onclick="subtractQuantity()">-</button>
+                    <input type="text" class="quantity-input" id="quantity" value="1" readonly>
+                    <button class="quantity-button" onclick="addQuantity()">+</button>
+                </div>
+                <button class="add-btn" type="button">Add to Cart</button>
+            </div>
+            <div class="wishlist">
+                <a href=""> <i class="fa-regular fa-heart"></i><span style="margin-left: 5px;">Add to Wishlist</span></a>
+            </div>
+            <p style="font-size: 20px; ">Pack sizes</p>
+           <section class="box2">
+            <div class="pack-size">
+                <div class="pack">
+                    <p>1kg</p>
+                    <p>₹55.5 <span style="color: #8a8a8a; font-size: 13px;">(₹55.5 / kg)</span></p>
+                </div>
+                <div class="tik">
+                    <i class="fa-solid fa-check"></i>
+                </div>  
+            </div>
+            <p style="text-align: center;"><del style="color: #494545a0;">₹ 74</del> <span style="background-color: rgba(199, 224, 233, 0.76); font-size: 13px; color: #404040;">25% OFF</span></p>
+           </section>
+
+           <section class="box2">
+            <div class="pack-size">
+                <div class="pack">
+                    <p>500g</p>
+                    <p>₹27.75<span style="color: #8a8a8a; font-size: 13px;">(0.5/g)</span></p>
+                </div>
+                <div class="tik">
+                    <i class="fa-solid fa-check"></i>
+                </div>  
+            </div>
+            <p style="text-align: center;"><del style="color: #494545a0;">₹ 37</del> <span style="background-color: rgba(199, 224, 233, 0.76); font-size: 13px; color: #404040;">25% OFF</span></p>
+           </section>
+        </section>
+    </section>
+    
+    <section class="benefit">
+        <p style="text-align: center; font-size: 20px;">Why choose Graso Shop?</p>
+
+        <div class="quality">
+            <img src="../assets/images/quality.jpg" alt="">
+            <img src="../assets/images/on-time.jpg" alt="">
+            <img src="../assets/images/free.jpg" alt="">
+            <img src="../assets/images/return.jpg" alt="">
+        </div>
+    </section>
+   
+    <section class="about-product">
+        <p style="color: #1249a2; font-size: 25px;">Olive Oil - Local, Organically Grown (Loose)</p>
+        <div class="content-product">
+            <p style="color: black; font-size: 20px;">Benefits</p>
+            <p style="color: #2b2a2ab9; font-size: 15px; margin-left: 20px;">Nuts and seeds are good sources of protein, healthy fats, fibres, vitamins and minerals. Nuts and seeds regulate body weight as their fats are not fully absorbed and they regulate food intake. Nuts and seeds contain unsaturated fats and other nutrients that provide protective effects against heart disease and diabetes.</p>
+        </div>
+    </section>
+    
+    <section>
+        <p class="side-title">Similar Products</p>
+         <div class="row-1">
+            <div class="card">
+                <a href="./rice.html"><img src="../assets/images/rice.png" alt="...."></a>
+                <p style="color: rgba(128, 128, 128, 0.779);">grains</p>
+                <p class="tle-veg">Rice</p>
+                <div class="adding"> 
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹75</p>
+                    <p> <button><i class="fa-solid fa-cart-arrow-down"></i>Add</button></p>
+                </div>
+                <div class="heart-fnc">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="./potato.html"><img src="../assets/images/potato-.jpg" alt="...."></a>
+                <p style="color: rgba(128, 128, 128, 0.779);">vegetable</p>
+                <p class="tle-veg">Potato</p>
+                <div class="adding"> 
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹75</p>
+                    <p> <button><i class="fa-solid fa-cart-arrow-down"></i>Add</button></p>
+                </div>
+                <div class="heart-fnc">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="./masala-wheels.html"><img src="../assets/images/masala wheels.jpg" alt="...."></a>
+                <p style="color: rgba(128, 128, 128, 0.779);">snacks</p>
+                <p class="tle-veg">Masala Wheels</p>
+                <div class="adding"> 
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹60</p>
+                    <p> <button><i class="fa-solid fa-cart-arrow-down"></i>Add</button></p>
+                </div>
+                <div class="heart-fnc">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="./jam-with-waffle.html"><img src="../assets/images/jam with wazzle cone.png" alt="...."></a>
+                <p style="color: rgba(128, 128, 128, 0.779);">ice cream</p>
+                <p class="tle-veg">Jam with Wazzle</p>
+                <div class="adding"> 
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹90</p>
+                    <p> <button><i class="fa-solid fa-cart-arrow-down"></i>Add</button></p>
+                </div>
+                <div class="heart-fnc">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="./coriender-leaf.html"><img src="../assets/images/coriender leaf.jpg" alt="...."></a>
+                <p style="color: rgba(128, 128, 128, 0.779);">grocery</p>
+                <p class="tle-veg">Coriender Leaf</p>
+                <div class="adding"> 
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹115</p>
+                    <p> <button><i class="fa-solid fa-cart-arrow-down"></i>Add</button></p>
+                </div>
+                <div class="heart-fnc">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <a href="./lemon.html"><img src="../assets/images/lemon -1.jpg" alt="...."></a>
+                <p style="color: rgba(128, 128, 128, 0.779);">grocery</p>
+                <p class="tle-veg">Lemon</p>
+                <div class="adding"> 
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹115</p>
+                    <p> <button><i class="fa-solid fa-cart-arrow-down"></i>Add</button></p>
+                </div>
+                <div class="heart-fnc">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+        </div>
+         </div>
+    </section>
+        
+    <section>
+        <p class="side-title">Frequently Bought Together</p>
+        <div class="row-1">
+            <div class="card">
+                <a href="./almondoil.html"><img src="../assets/images/almont oil.png" alt="...."></a>
+                <p style="color: rgba(128, 128, 128, 0.779);">oils</p>
+                <p class="tle-veg">Almond Oil</p>
+                <div class="adding"> 
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹75</p>
+                    <p> <button><i class="fa-solid fa-cart-arrow-down"></i>Add</button></p>
+                </div>
+                <div class="heart-fnc">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="./groundnut.html"><img src="../assets/images/ground nut oil.png" alt="...."></a>
+                <p style="color: rgba(128, 128, 128, 0.779);">nuts</p>
+                <p class="tle-veg">Groundnut oil</p>
+                <div class="adding"> 
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹90</p>
+                    <p> <button><i class="fa-solid fa-cart-arrow-down"></i>Add</button></p>
+                </div>
+                <div class="heart-fnc">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="./coconutoil.html"><img src="../assets/images/coconut oil.png" alt="...."></a>
+                <p style="color: rgba(128, 128, 128, 0.779);">Oils</p>
+                <p class="tle-veg">coconutoil</p>
+                <div class="adding"> 
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹115</p>
+                    <p> <button><i class="fa-solid fa-cart-arrow-down"></i>Add</button></p>
+                </div>
+                <div class="heart-fnc">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="./olive.html"><img src="../assets/images/olive oil.png" alt="...."></a>
+                <p style="color: rgba(128, 128, 128, 0.779);">oils</p>
+                <p class="tle-veg">Olive oil</p>
+                <div class="adding"> 
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹60</p>
+                    <p> <button><i class="fa-solid fa-cart-arrow-down"></i>Add</button></p>
+                </div>
+                <div class="heart-fnc">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="./neemoil.html"><img src="../assets/images/neem oil.png" alt="...."></a>
+                <p style="color: rgba(128, 128, 128, 0.779);">oils</p>
+                <p class="tle-veg">Neem oil</p>
+                <div class="adding"> 
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹120</p>
+                    <p> <button><i class="fa-solid fa-cart-arrow-down"></i>Add</button></p>
+                </div>
+                <div class="heart-fnc">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <a href="./avacoda.html"><img src="../assets/images/avacoda oil.png" alt="...."></a>
+                <p style="color: rgba(128, 128, 128, 0.779);">oils</p>
+                <p class="tle-veg">avacoda Oil</p>
+                <div class="adding"> 
+                    <p class="price" style="color:rgb(207, 8, 108)">MRP ₹120</p>
+                    <p> <button><i class="fa-solid fa-cart-arrow-down"></i>Add</button></p>
+                </div>
+                <div class="heart-fnc">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+    <a href="#body" class="up-arrow"><i class="fa-solid fa-arrow-up"></i></a>
+         
+</main>  
+<!-- footer common   -->
+<section>
+    <div class="subscribe">
+        <div class="sub-1">
+            <p style="font-size: 20px;">Join Our Newsletter Now</p>
+            <p>Register now to get updates on Promotions and Coupons</p>
+            </div>
+            <div class="sub-2">
+                <input type="text" placeholder="Your Email Address...">
+                <button type="button">SUBSCRIBE!</button>
+            </div>
+            <div class="sub-3">
+                 <div class="box1">
+                    <a href="https://play.google.com/store/games?hl=en&gl=US"><i class="fa-brands fa-google-play"></i></a>
+                    <p>ANDRIOD APP ON Google Play</p>
+                 </div>
+                 <div class="box1">
+                   <a href="https://apps.apple.com/in/app/google-more-ways-to-search/id284815942"> <i class="fa-solid fa-mobile-screen-button"></i></a>
+                   <p>Available on the App Store</p>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section >
+        <div class="main-benefit">
+           <img src="../assets/images/secure-main.jpg" alt="">
+           <img src="../assets/images/trust-main.jpg" alt="">
+           <img src="../assets/images/help-main.jpg" alt="">
+           <img src="../assets/images/shipping-main.jpg" alt="">
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="column-1">
+        <p style="font-size: 35px; font-weight: 700;">Grasho Shop</p>
+            <p class="sec-p">Founded 25 years ago, Grasho Shop boasts a safe skincare collection that is healthy for our
+                bodies and the earth</p>
+            <p style="color: #404040;"><i class="fa-solid fa-map-location-dot"></i> 8/83A Anna Nagar Dindigul Main Road, GobalPatty, TamilNadu</p>
+            <p style="color: #404040;"><i class="fa-solid fa-envelope-circle-check"></i> Email: contact@dcitechnologies.in</p>
+            <p style="color: #404040;"><i class="fa-solid fa-phone-volume"></i> +91 0123456789</p>
+    </div>
+
+
+    <div class="column-2">
+        <b><p style="font-size: 18px;">All Categories</p></b>
+        <a href="./menu.html">Shop Categories</a>
+        <a href="./vegetable.html">Vegetables</a>
+        <a href="./nuts.html">Nuts</a>
+        <a href="./grains.html">Grains</a>
+        <a href="./fruit.html">Fruits</a>
+    </div>
+
+    <div class="column-3">
+       <b> <p style="font-size: 18px;">Customer Account</p></b>
+        <a href="">My Account</a>
+        <a href="">My orders</a>
+        <a href="">Wishlist</a>
+        <a href="">Payment methods</a>
+        <a href="">Graso Shop Wallet</a>
+    </div>
+
+    <div class="column-4">
+        <b><p style="font-size: 18px;">Help & Support</p></b>
+        <a href="">About us</a>
+        <a href="">FAQ</a>
+        <a href="">Terms & Conditions</a>
+        <a href="">Copy right</a>
+        <a href="">Company</a>
+    </div>
+
+    <div class="column-5">
+        
+        <div class="first">
+            <b><p style="font-size: 18px; margin-bottom: 10px;">Connect with Us</p></b>
+            <a href="https://www.facebook.com/" style="color: #1877F2;"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en" style="color: black"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.google.com/" class="google-icn"><i class="fa-brands fa-google"></i></a>
+            <a href="https://www.instagram.com/" style="color: red;"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://in.pinterest.com/" style="color: red;"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+        <div class="second">
+        <b><p style="font-size: 18px; margin-bottom: 10px;">Payment methods</p></b>
+        <a href="https://pay.google.com/"><img src="../assets/images/gpay.png" alt="" ></a>
+        <a href="https://www.phonepe.com/"><img src="../assets/images/phonepay.png" alt=""></a>
+        <a href="https://www.visa.co.in/"><img src="../assets/images/visa cart.png" alt=""></a>
+        <a href="https://www.mastercard.co.in/"><img src="../assets/images/master card.png" alt=""></a>
+    </div>
+</div>
+</footer>
+
+
+<footer class="mobile-view">
+  <div class="bottom-mb">
+    <div class="home">
+        <a href="../index.html"> <i class="fa-solid fa-house-user"></i></a>
+        <p>Home</p>
+       </div>
+       <div class="items-mb">
+        <a href="./menu.html"><i class="fa-solid fa-table-cells-large"></i></a>
+        <p>Category</p>
+       </div>
+      <div class="heart-mb">
+        <a href="" id="count"><i class="fa-solid fa-heart"></i></a>
+        <p>Wishlist</p>
+      </div>
+      <div class="shp-mb">
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        <p>Basket</p>
+      </div>
+  </div>
+
+</footer>
+
+
+<footer class="last-footer">
+    <p>Copyright © designed by <b>DCITechnologies</b></p>
+    </footer>
+    
+    <script src="../js/shop.js"></script>
+    <script>
+         ScrollReveal().reveal('.content-page',{distance: '250px', duration:500,reset: true})
+         ScrollReveal().reveal('.sub-product',{distance: '200px', duration:500,reset: true})
+         ScrollReveal().reveal('.benefit',{distance: '200px', duration:500,reset: true})
+         ScrollReveal().reveal('.main-benefit',{ distance: '250px', duration:500,reset: true});
+         ScrollReveal().reveal('.row-1',{ distance: '250px', duration:500,reset: true});
+        ScrollReveal().reveal('.footer',{ distance: '250px', duration:500,reset: true});
+    </script>
+    </body>
+    </html>
